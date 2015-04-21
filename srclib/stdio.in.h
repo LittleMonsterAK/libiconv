@@ -696,7 +696,6 @@ _GL_CXXALIASWARN (gets);
    so any use of gets warrants an unconditional warning.  Assume it is
    always declared, since it is required by C89.  */
 //_GL_WARN_ON_USE (gets, "gets is a security hole - use fgets instead");
-_GL_WARN_ON_USE (gets, "gets is a security hole - use fgets instead");
 #if defined(__GLIBC__) && !defined(__UCLIBC__) && !__GLIBC_PREREQ(2, 16)
    _GL_WARN_ON_USE (gets, "gets is a security hole - use fgets instead");
 #endif
